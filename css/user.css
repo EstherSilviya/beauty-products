@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.logo img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul li a {  
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+}
+
+.signup {
+    background: #f8f8f8;
+    padding:50px 21%;
+}
+
+
+.create {
+    background-image: url(../images/bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:lighten;
+}
+
+.sign {
+    text-align: center;
+    margin: 40px;
+    font-size: small;
+    padding: 10px;
+}
+
+
+.para p{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.sign-btn button {
+    display: block;
+    margin: 20px auto;
+    width:30%;
+}
+
+button {
+    color:blueviolet;
+    font-size: large;
+    padding: 10px;
+    background-color: #fff4ff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sign-btn ul li button i a {
+    font-size: large;
+    padding:0px 20px; 
+}
+
+.sign-btn ul li {
+    list-style-type: none;
+}
+
+.acc  {
+    text-align: center;
+}
+
+.acc button  {
+    color:black;
+    font-size: small;
+    padding: 10px;
+    background-color: white;
+    display: flex;   
+}
+
+.acc ul li  {
+    list-style-type: none;
+}
+ 
+.forms {
+    padding: 10px 10px;
+    text-align: center;
+    
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: larger;
+    width: 20%  ;
+}
+
+
+
+

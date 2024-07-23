@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.logo img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+}
+.ship {
+    background: #d9d5d5;
+    padding:20px 5%;
+}
+
+.Shipping {
+    padding: 50px;
+    border:2px solid white;
+    background: white;
+
+}
+
+.Shipping h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.Shipping h2 {
+    margin: 20px;;
+}
+
+.Shipping ul li {
+    font-size: larger;
+}
+
+.Shipping ul {
+    padding-left: 39px;
+}
+
+.Shipping p {
+    font-size: larger;
+    letter-spacing: normal;
+    text-align: justify;
+    line-height: 1.5;
+    margin:30px;
+}
+
+
+
+

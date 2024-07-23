@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.logo img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul li a {  
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+}
+
+.signin {
+    background: #f8f8f8;
+    padding:30px 21%;
+}
+
+.create {
+    background-image: url(../images/bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:lighten;
+}
+
+.log ul li {
+    list-style-type: none;
+}
+
+.signs-btn ul li {
+    list-style-type: none;
+}
+
+.signs {
+    text-align: center;
+    margin: 40px;
+    font-size: larger;
+    padding: 10px;
+    
+}
+
+.signs-btn button {
+    display: block;
+    margin: 20px auto;
+    width:30%;
+}
+
+button {
+    color:blueviolet;
+    font-size: large;
+    padding: 10px;
+    background-color: #fff4ff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.log  {
+    text-align: center;
+}
+
+.log button  {
+    color:black;
+    font-size: small;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    
+}
+
+.forms {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: larger;
+    width: 20%  ;
+}
+
+
+
+
+
+
+.signs-btn ul li button i a {
+    font-size: large;
+    padding:0px 20px;
+}
+

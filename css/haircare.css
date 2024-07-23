@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.logo img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+}
+
+.box:hover{
+    background-color: black;
+    color:white;
+}
+
+.hair-sec {
+    margin: 30px 0px;
+}
+
+.hair-title {
+    margin-bottom: 30px;
+}
+
+.hair-title h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.hair {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+} 
+
+.info {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(97, 96, 96, 0.151);
+}
+
+.info ul li {
+    display: inline-block;
+    margin: 0px 50px;
+    line-height: 1.5;
+} 
+
+.last {
+    padding: 20px;
+    text-align: center;
+    background-color: blueviolet;
+}
+.last ul li {
+    display :inline-block;
+    margin: 0px 50px;
+    line-height: 1.5;
+
+}
+
+.last ul li a {
+    color:white;
+}
+
+.help {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(97, 96, 96, 0.151);
+}
+
+.help ul li {
+    display:inline-block;
+    margin:0px 50px;
+    line-height: 1.5;
+}
+
+
+.hair-img img {
+    width: 260px;
+    margin-top: 50px;
+}
+
+.hair-content { 
+    padding: 20px;
+    text-wrap: wrap;
+    width:100%;
+}
+
+.hair h3 {
+    padding: 10px 0px;
+}
+
+
+.hair-content h4 {
+    padding: 10px 0px;
+}
+
+.info {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(97, 96, 96, 0.151);
+}
+
+.info ul li {
+    display: inline-block;
+    margin: 0px 50px;
+    line-height: 1.5;
+} 
+
+.last {
+    padding: 20px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.last ul li {
+    display :inline-block;
+    margin: 0px 50px;
+    line-height: 1.5;
+
+}
+
+.last ul li a {
+    color:white;
+}
+
+.help {
+    padding: 20px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.help ul li  {
+    display:inline-block;
+    margin:0px 50px;
+    line-height: 1.5;
+    color:white;
+}
+
+@media (max-width:1100px){
+    .hair {
+        padding:0px;
+    }
+
+    .hair-content {
+        padding: 0px;
+    }
+    .hair-img img {
+        width: 180px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:770px){
+    .hair {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hair-img img {
+        width: 312px;
+        margin-top: 50px;
+    }
+    .hair-details{
+        width: 50%;
+    }
+}
+
+@media (max-width:650px) {
+    .hair-content {
+        width: 70%;
+        margin-left: 23px;
+    }
+    .hair-img img {
+        width: 200px;
+        margin-top: 50px;
+        margin: 0px auto;
+    }
+
+    .hair-details{
+        width: 35%;
+    }
+}
+
+@media (max-width: 430px) {
+    .hair {
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .hair-content {
+        width:100%;
+        margin: 0%;
+    }
+    
+    .hair-img img {
+        width: 200px;
+        margin: 0px auto;
+    }
+
+    .hair-details {
+        margin-top: 20px;
+        width:50%;
+    }
+
+
+}
+
+
