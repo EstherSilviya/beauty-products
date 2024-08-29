@@ -106,14 +106,13 @@
 .help {
     padding: 20px;
     text-align: center;
-    background-color: blueviolet
+    background-color: rgba(97, 96, 96, 0.151);
 }
 
 .help ul li {
     display:inline-block;
     margin:0px 50px;
     line-height: 1.5;
-    color:white;
 }
 
 

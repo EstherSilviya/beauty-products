@@ -78,7 +78,7 @@
 .info {
     padding: 20px;
     text-align: center;
-    background-color: rgb(253, 251, 255);
+    background-color: rgba(97, 96, 96, 0.151);
 }
 
 .info ul li {
@@ -108,7 +108,7 @@
 .help {
     padding: 20px;
     text-align: center;
-    background-color: blueviolet;
+    background-color:rgba(97, 96, 96, 0.151);
 }
 
 .help ul li {

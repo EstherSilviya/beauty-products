@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/try.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="navigation-menu">
+            <div class="logo">
+                <img src="../images/logo.png">
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="active">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="face.html">Face</a>
+                    </li>
+                    <li>
+                        <a href="eyes.html">Eyes</a>
+                    </li>
+                    <li>
+                        <a href="lips.html">Lips</a>
+                    </li>
+                    <li>
+                        <a href="haircare.html">Hair Care</a>
+                    </li>
+                    <li>
+                        <a href="skincare.html"> Skin Care</a>
+                    </li>
+                    <li>
+                        <a href="bodycare.html">Body Care</a>
+                    </li>
+                    <li>
+                        <a href="user.html">
+                            <i class="fa-regular fa-user"></i>
+                        </a>
+                        <ul class="dropdown">
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">My Cart</a></li>
+                            <li><a href="#">Setting</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        document.querySelector(".hamburger").onclick = function() {
+    document.querySelector(".menu").classList.toggle("active");
+}
+
+    </script>
+    
+</body>
+</html>
